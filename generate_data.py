@@ -1,5 +1,7 @@
 import argparse
 import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 import numpy as np
 from utils.data_utils import check_extension, save_dataset
 
